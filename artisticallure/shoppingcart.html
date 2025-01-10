@@ -9,15 +9,15 @@
 <body>
       <header>
             <h1>ARTISTIC ALLURE</h1>
-        </header>
+      </header>
 
-        <nav>
+      <nav>
             <a href="/artisticallure/homepage.html">Home</a>
             <a href="/artisticallure/products.html">Products</a>
             <a href="/artisticallure/shoppingcart.html">Shoppingcart</a>
-        </nav>
+      </nav>
 
-        <main>
+      <main>
             <section class="shopping-grid">
 
                   <div class="card">
@@ -27,10 +27,12 @@
                         <button>Choose pickup point</button>
                   </div>
 
-                  <div class="card">
+                  <div id="cart">
                         <h2>Cart</h2>
-                        <p>Your cart is empty</p>
-                        <button>Add to Cart</button>
+                        <p id="status">Your cart is empty</p>
+                        <p id="sum">Total sum: 0,00£</p>
+                        <input type="text" placeholder="Discount Code.." id="DiscountCode">
+                        <button id="apply">Apply</button>
                   </div>
                   
                   <div class="card">
@@ -39,12 +41,12 @@
                         <button>Add to Cart</button>
                   </div>
             </section>
-
-            <footer>
-                  <p>contact  example@gmail.com</p>
-                  <p>copyright Artistic Allure. All rights reserved.</p>
-            </footer>
-
       </main>
+
+      <footer>
+            <p>contact  example@gmail.com</p>
+            <p>copyright Artistic Allure. All rights reserved.</p>
+      </footer>
+      
 </body>
 </html>
