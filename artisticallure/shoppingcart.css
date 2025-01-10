@@ -42,7 +42,7 @@ a {
 
 }
 
-.product-grid {
+.shopping-grid {
       display: grid;
       grid-template-columns: repeat(minmax(200px, 1fr),auto-fit);
       gap: 1rem;
@@ -52,39 +52,47 @@ a {
 .card {
     background-color: #f9f9f9;
     border: 0.3rem solid #c0392b;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem gray;
-    padding: 1rem;
-    text-align: center;
-}
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+    text-align: left;
 }
 
 .card h2 {
     font-size: 1.2rem;
-    margin: 0.5rem 0;
+    background-color: #c0392b;
+    margin: 0%;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .card p {
     font-size: 1rem;
     color: #333;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#PostCode {
+
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 .card button {
-    background-color: #007bff;
+    background-color: #2ABF71;
     color: white;
     border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
     border-radius: 4px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
 
 .card button:hover {
-    background-color: #0056b3;
+    background-color: #208d55;
 }
 
 footer {
