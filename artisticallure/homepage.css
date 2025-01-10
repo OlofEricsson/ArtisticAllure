@@ -10,38 +10,46 @@ header {
 
       background-color: black;
       width: 100%;
-      height: 2rem;
+      height: 6rem;
       display: flex;
       justify-content: center;
+      
 }
 
 h1 {
       align-self: center;
       color: white;
-      font-size: medium;
       margin: 1rem;
+      font-size: 2rem;
 }
 
 nav {
 
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(37, 37, 37);
       display: flex;
       align-items: center;
       
-      justify-content: space-between;
+      justify-content: space-around;
 
 }
 
 a {
       text-decoration: none;
-      color: black;
-      margin: 0.5rem;
+      color: rgb(255, 255, 255);
+      margin: 0.7rem;
 
 }
 
 #heroimage {
 
       width: 100vw;
+      background-color: white;
+
+}
+
+article {
+
+      background-color: white;
 
 }
 
@@ -59,19 +67,77 @@ a {
 
 .featuredproduct {
 
-      display: grid;
+      display: flex;
       row-gap: 1rem;
       box-shadow: 0.2rem 0.2rem 0.5rem gray;
       margin: 3rem;
-      flex-direction: column;
       
-      border-radius: 1rem;
-      
+      border: 0.3rem solid #c0392b;
+      border-radius: 0.5rem;
+      overflow: hidden;
 
 }
 
 .fimg {
 
       grid-area: 1, 2, 4, 3;
+
+}
+
+.featuredproduct p {
+
+      padding-left: 1rem;
+      margin: 0;
+      margin-bottom: 1rem;
+
+}
+
+.featuredproduct h2 {
+      
+      padding-left: 1rem;
+      margin: 0;
+      margin-bottom: 1rem;
+
+}
+
+.product-info {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column; /* Text och knapp i kolumn */
+      justify-content: space-between;
+      flex: 1; /* Låt texten fylla resten av utrymmet */
+}
+
+.flink {
+      background-color: #c0392b;
+      color: white;
+      border: none;
+      border-radius: 0.3rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      align-self: flex-start;
+      margin-top: auto;
+
+
+}
+  
+.flink:hover {
+      background-color: #902c21;
+}
+
+.featuredproduct img {
+
+      width: 40%;
+      height: auto;
+      object-fit: cover;
+      margin: 1rem;
+      
+}
+
+footer {
+
+      color: white;
+      background-color: rgb(37, 37, 37);
+      padding: 0.5rem;
 
 }
