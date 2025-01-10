@@ -105,7 +105,7 @@ a {
     font-size: 1rem;
     color: #333;
     margin-left: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 #status {
@@ -133,6 +133,7 @@ button {
     background-color: #2ABF71;
     color: white;
     border: none;
+    margin-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
