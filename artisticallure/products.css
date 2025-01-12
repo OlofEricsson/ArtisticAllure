@@ -55,13 +55,14 @@ main {
 }
 
 .product-grid {
-
+      overflow: auto;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 4%;
       padding-top: 1rem;
       padding-left: 4rem;
       padding-right: 4rem;
+      padding-bottom: 4rem;
 
 }
 

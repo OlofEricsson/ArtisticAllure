@@ -43,8 +43,15 @@ a {
 
 }
 
+main {
+
+    height: 80vh;
+
+}
+
 .shopping-grid {
 
+    overflow: auto;
     display: grid;
     grid-template-columns: repeat(minmax(200px, 1fr),auto-fit);
     gap: 1rem;
